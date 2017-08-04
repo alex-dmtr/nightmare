@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23522738035638466}
   - component: {fileID: 108287614289176692}
   m_Layer: 0
-  m_Name: Elixir_Of_Health
+  m_Name: HealthPack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
