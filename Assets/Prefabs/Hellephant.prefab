@@ -172,7 +172,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.8602524
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -242,7 +242,7 @@ Animator:
   m_GameObject: {fileID: 1602030206653614}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: b77f122f451a2394898a24191c26107c, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 492793d6b220cc74a98d6c854edba2fd, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -300,8 +300,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.8
-  m_Center: {x: 0, y: 0.8, z: 0}
+  m_Radius: 1.4
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!136 &136693004428171906
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -311,10 +311,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1.5
+  m_Radius: 1
+  m_Height: 1.8304893
   m_Direction: 1
-  m_Center: {x: 0, y: 0.8, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!137 &137775448903851352
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
