@@ -5,7 +5,7 @@ using System.Collections;
 public class ScoreManager : MonoBehaviour
 {
     public static int score;
-
+    public LevelContainer levelContainer;
 
     Text text;
 
@@ -19,6 +19,11 @@ public class ScoreManager : MonoBehaviour
 
     void Update ()
     {
-        text.text = "Score: " + score;
+        int lvl = levelContainer.GetLevel();
+        text.text = "Level: " + lvl + " Score: " + score;
+        if(score >= 100 * lvl)
+        {
+            levelContainer.IncrementLevel();
+        }
     }
 }
