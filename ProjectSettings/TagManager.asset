@@ -6,6 +6,7 @@ TagManager:
   tags:
   - EnergyDrink
   - HealthPack
+  - PickupSpawnPoint
   layers:
   - Default
   - TransparentFX
