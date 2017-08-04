@@ -468,8 +468,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 2
-        time: 0.5060749
-        value: 0
+        time: 0.48988533
+        value: 0.18840027
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -672,7 +672,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 1525614734
+  randomSeed: 384302968
   InitialModule:
     serializedVersion: 3
     enabled: 1
