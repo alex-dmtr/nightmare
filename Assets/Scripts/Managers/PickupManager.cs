@@ -6,7 +6,7 @@ public class PickupManager : MonoBehaviour
     public PlayerHealth playerHealth;
     public Transform[] pickupLocations;
     public GameObject[] pickupPrefabs;
-    public float timeBetweenSpawns = 5f;
+    public float timeBetweenSpawns = 30f;
 
     void Start()
     {

@@ -21,7 +21,8 @@ public class PlayerHealth : MonoBehaviour
     PlayerShooting playerShooting;
     bool isDead;
     bool damaged;
-
+    
+    
 
     void Awake ()
     {

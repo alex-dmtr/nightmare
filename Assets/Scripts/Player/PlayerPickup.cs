@@ -23,59 +23,72 @@ public class PlayerPickup : MonoBehaviour
 
     private int effects = 0;
 
-    void Awake()
+    private void Awake()
     {
         //new WaitForSeconds(1);
         foreach (var rectTransform in effectParent)
             rectTransform.localScale = new Vector3(0, 0, 0);
     }
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("EnergyDrink"))
         {
             Debug.Log("Drank energy drink");
             Destroy(other.gameObject);
             if (remainingTime[EnergyDrinkEffectIndex] <= 0f)
+            {
                 StartCoroutine(ConsumeEnergyDrink());
-            else remainingTime[EnergyDrinkEffectIndex] += 15.0f;
+            }
+            else
+            {
+                remainingTime[EnergyDrinkEffectIndex] += 15.0f;
+            }
         }
     }
 
-
     private IEnumerator ConsumeEnergyDrink()
     {
-        if (remainingTime[EnergyDrinkEffectIndex] <= 0f)
-            effects++;
-        remainingTime[EnergyDrinkEffectIndex] += 15.0f;
+        AddEffectOnHud(EnergyDrinkEffectIndex);
+        ActivateEnergyDrink();
 
-        effectParent[EnergyDrinkEffectIndex].localScale = new Vector3(1, 1, 1);
-        effectParent[EnergyDrinkEffectIndex].position.Set(0, -60 * (effects - 1), 0);
-
+        while (remainingTime[EnergyDrinkEffectIndex] > 0)
+        {
+            UpdateHudTimer(EnergyDrinkEffectIndex);
+            yield return null;
+        }
+        DeactivateEnergyDrink();
+    }
+    
+    private void ActivateEnergyDrink()
+    {
         ppBehaviour.profile = energyProfile;
         playerShooting.damagePerShot = 30;
         playerShooting.timeBetweenBullets = 0.05f;
         playerMovement.speed = 10f;
-
-        //add effect
-
-        while (remainingTime[EnergyDrinkEffectIndex] > 0)
-        {
-            float delta = Time.deltaTime;
-
-            remainingTime[EnergyDrinkEffectIndex] -= delta;
-            effectText[EnergyDrinkEffectIndex].text = remainingTime[EnergyDrinkEffectIndex].ToString("0.##") + "s";
-            Debug.Log("Delta: " + delta);
-
-            yield return null;
-        }
-
-        //remove effect
+    }
+    private void DeactivateEnergyDrink()
+    {
         ppBehaviour.profile = defaultProfile;
         playerShooting.damagePerShot = 20;
         playerShooting.timeBetweenBullets = 0.15f;
         playerMovement.speed = 6f;
         effectParent[EnergyDrinkEffectIndex].localScale = new Vector3(0, 0, 0);
         effects--;
+    }
+    
+    private void UpdateHudTimer(int effectIndex)
+    {
+        remainingTime[effectIndex] -= Time.deltaTime;
+        effectText[effectIndex].text = remainingTime[effectIndex].ToString("0.##") + "s";
+    }
+    private void AddEffectOnHud(int effectIndex)
+    {
+        if (remainingTime[effectIndex] <= 0f)
+            effects++;
+        remainingTime[effectIndex] += 15.0f;
+
+        effectParent[effectIndex].localScale = new Vector3(1, 1, 1);
+        effectParent[effectIndex].position.Set(0, -60 * (effects - 1), 0);
     }
 }
