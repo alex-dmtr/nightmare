@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33312498725105938}
   - component: {fileID: 23241101098590886}
   - component: {fileID: 54190233160830072}
+  - component: {fileID: 65694377207804020}
   m_Layer: 0
   m_Name: Tree_Fir
   m_TagString: Untagged
@@ -97,3 +98,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65694377207804020
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1415099511820332}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7, y: 6.784615, z: 2.7}
+  m_Center: {x: 0.000002026558, y: 3.392307, z: 0.0000023245811}
