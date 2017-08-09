@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6400000}
   - component: {fileID: 11100000}
   - component: {fileID: 136204748558001468}
+  - component: {fileID: 135055619884604342}
   m_Layer: 0
   m_Name: Cactus_Tall_03
   m_TagString: Cactus
@@ -111,6 +112,18 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}
   m_IsPrefabParent: 1
+--- !u!135 &135055619884604342
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.9218144
+  m_Center: {x: -0.017288983, y: 1.8517225, z: 0.0014429986}
 --- !u!136 &136204748558001468
 CapsuleCollider:
   m_ObjectHideFlags: 1
