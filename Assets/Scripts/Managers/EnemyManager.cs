@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
@@ -30,9 +32,22 @@ public class EnemyManager : MonoBehaviour
             spawnTime = spawnTime - (spawnTime * 25 / 100);
             InvokeRepeating("Spawn", spawnTime, spawnTime);
         }else {
-            int spawnPointIndex = Random.Range (0, spawnPoints.Length);
 
-            Instantiate (enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
+            var okSpawnPoints = spawnPoints.Where(point =>
+            {
+                var distance = Vector3.Distance(point.position, playerHealth.transform.position);
+
+                var RADIUS = 50f;
+                var MAXRADIUS = 200f;
+                return (distance >= RADIUS && distance <= MAXRADIUS);
+            }).ToArray();
+
+            if (okSpawnPoints.Length == 0)
+                okSpawnPoints = spawnPoints;
+          
+            int spawnPointIndex = Random.Range (0, okSpawnPoints.Length);
+
+            Instantiate (enemy, okSpawnPoints[spawnPointIndex].position, okSpawnPoints[spawnPointIndex].rotation);
         }
         
     }

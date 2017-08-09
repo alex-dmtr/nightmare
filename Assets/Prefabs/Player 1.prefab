@@ -39,8 +39,8 @@ GameObject:
   - component: {fileID: 54131996423518070}
   - component: {fileID: 136155858832544788}
   - component: {fileID: 114669775830726894}
-  - component: {fileID: 114340544924531634}
   - component: {fileID: 82854014396450832}
+  - component: {fileID: 114145086811180548}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
@@ -131,7 +131,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1510124923652176}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 9.93985, y: 10, z: 6.3610787}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4215444593579126}
@@ -382,7 +382,7 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &114340544924531634
+--- !u!114 &114145086811180548
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
