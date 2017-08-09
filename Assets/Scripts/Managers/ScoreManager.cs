@@ -12,7 +12,6 @@ public class ScoreManager : MonoBehaviour
     private string[] scenePaths;
 
     Text text;
-    private bool level1Finished = false;
 
 
     private void Awake ()
@@ -33,14 +32,13 @@ public class ScoreManager : MonoBehaviour
             levelContainer.IncrementLevel();
         }
         
-        if (score >= 200 && SceneManager.GetActiveScene() != SceneManager.GetSceneByBuildIndex(1) && !level1Finished)
+        if (score >= 200 && SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(0))
         {
             PlayerPrefs.SetInt("Player Score", score);
             PlayerPrefs.Save();
-            level1Finished = true;
             SceneManager.LoadSceneAsync(1);
         }
-        else if (score >= 300 && SceneManager.GetActiveScene() != SceneManager.GetSceneByBuildIndex(2))
+        else if (score >= 300 && SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(1))
         {
             PlayerPrefs.SetInt("Player Score", score);
             PlayerPrefs.Save();
