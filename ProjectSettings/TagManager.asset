@@ -9,6 +9,9 @@ TagManager:
   - PickupSpawnPoint
   - Fire
   - Cactus
+  - Fire
+  - PickupSpawnPoint
+  - EnergyDrink
   layers:
   - Default
   - TransparentFX
