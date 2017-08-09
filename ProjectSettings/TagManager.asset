@@ -4,11 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - EnergyDrink
-  - HealthPack
-  - PickupSpawnPoint
-  - Fire
   - Cactus
+  - Fire
+  - PickupSpawnPoint
+  - EnergyDrink
   layers:
   - Default
   - TransparentFX
@@ -20,8 +19,8 @@ TagManager:
   - 
   - Floor
   - Shootable
-  - LightMask
-  - Invisible
+  - 
+  - 
   - 
   - 
   - 
