@@ -7,6 +7,7 @@ public class GameOverManager : MonoBehaviour
 
     Animator anim;
     float restartTimer;
+    public static bool isOver;
 
     void Awake()
     {
@@ -21,6 +22,7 @@ public class GameOverManager : MonoBehaviour
             Debug.Log("Dead frate");
             anim.SetTrigger("GameOver");
             restartTimer += Time.deltaTime;
+            isOver = true;
             if(restartTimer >= restartDelay)
             {
                 //Application.LoadLevel(Application.loadedLevel);

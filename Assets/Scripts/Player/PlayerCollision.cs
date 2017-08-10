@@ -1,15 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerCollision : MonoBehaviour
 {
-    PlayerHealth playerHealth;
     public Animator chestAnimator;
     public Text eToOpen;
-    public int reqScore = 100;
-    private bool isInRange = false;
+    public int reqScore = 200;
+    public Animator anim;
+    public Text GameOverText;
+    public Text ScoreText;
+    
+    private PlayerHealth playerHealth;
+    private bool isInRange;
 
 
     private void Awake()
@@ -40,13 +43,12 @@ public class PlayerCollision : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.E) && ScoreManager.score >= reqScore && isInRange)
         {
+            GameOverText.text = "You win!";
+            ScoreText.text = "Final score: " + ScoreManager.score;
+            GameOverManager.isOver = true;
             chestAnimator.SetTrigger("Activate");
-            ActivateWinGame();
+            anim.SetTrigger("GameOver");
         }
     }
 
-    private void ActivateWinGame()
-    {
-        throw new System.NotImplementedException();
-    }
 }
