@@ -1593,6 +1593,11 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114346195555505070, guid: 4f9f738190e41d74b8caf43d6fa0e3ac,
+        type: 2}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f9f738190e41d74b8caf43d6fa0e3ac, type: 2}
   m_IsPrefabParent: 0
