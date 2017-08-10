@@ -6,11 +6,11 @@ public class EnemyManager : MonoBehaviour
 {
     public PlayerHealth playerHealth;
     public GameObject enemy;
-    public float spawnTime = 3f;
+    public float spawnTime = 10f;
     public Transform[] spawnPoints;
     public LevelContainer levelContainer;
     private int level;
-    public float minSpawnTime = 1f;
+    public float minSpawnTime = 4f;
 
     void Start()
     {
@@ -37,13 +37,14 @@ public class EnemyManager : MonoBehaviour
             {
                 var distance = Vector3.Distance(point.position, playerHealth.transform.position);
 
-                var RADIUS = 50f;
-                var MAXRADIUS = 200f;
+                var RADIUS = 15f;
+                var MAXRADIUS = 25f;
                 return (distance >= RADIUS && distance <= MAXRADIUS);
             }).ToArray();
 
             if (okSpawnPoints.Length == 0)
-                okSpawnPoints = spawnPoints;
+                // okSpawnPoints = spawnPoints;
+                return;
           
             int spawnPointIndex = Random.Range (0, okSpawnPoints.Length);
 
