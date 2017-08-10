@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c273f0aa-c4a7-4051-9096-b4a2388817b7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.nightmare/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.nightmare/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Animation/SkeletonAC.controller" afterPath="$PROJECT_DIR$/Assets/Animation/SkeletonAC.controller" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Level_03.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_03.unity" />
-    </list>
+    <list default="true" id="c273f0aa-c4a7-4051-9096-b4a2388817b7" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +23,26 @@
     <favorites_list name="Nightmare" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="PlayerMovement.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding>
+                <marker date="1502266850236" expanded="true" signature="63:3079" ph="{...}" />
+                <marker date="1502266850236" expanded="true" signature="650:892" ph="{...}" />
+                <marker date="1502266850236" expanded="true" signature="918:1262" ph="{...}" />
+                <marker date="1502266850236" expanded="true" signature="1296:1708" ph="{...}" />
+                <marker date="1502266850236" expanded="true" signature="1729:2788" ph="{...}" />
+                <marker date="1502266850236" expanded="true" signature="2173:2782" ph="{...}" />
+                <marker date="1502266850236" expanded="true" signature="2827:3077" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -53,16 +68,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/PickupManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/EnemyManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/EnemyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DE713E92-6A1C-489D-A969-4BB7F33085F3/68/b23e0f64/Vector3.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -75,6 +91,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" />
         <option value="$PROJECT_DIR$/Assets/SimpleCloudSystem by RM/SceneComponents/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DE713E92-6A1C-489D-A969-4BB7F33085F3/68/b23e0f64/Vector3.cs" />
       </list>
     </option>
   </component>
@@ -98,8 +115,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -125,7 +142,91 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Nightmare (4 projects)" />
+              <option name="myItemId" value="nightmare (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nightmare (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nightmare (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Player" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nightmare (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nightmare (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="References" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,6 +347,7 @@
       <workItem from="1502319041000" duration="24000" />
       <workItem from="1502319089941" duration="170000" />
       <workItem from="1502319431436" duration="15000" />
+      <workItem from="1502343811743" duration="208000" />
     </task>
     <task id="LOCAL-00001" summary="Reformat file">
       <created>1501878477734</created>
@@ -258,7 +360,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10642000" />
+    <option name="totallyTimeSpent" value="10850000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -270,21 +372,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.4941435" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.4941435" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15677084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1566618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -324,41 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502319339620" expanded="false" signature="6:148" ph="..." />
-            <marker date="1502319339620" expanded="true" signature="202:9547" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="357:9545" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2199:2707" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2782:3520" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2922:3024" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3100:3289" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3378:3440" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3562:3706" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3743:5237" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4577:4881" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4673:4867" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4898:5012" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5276:5376" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5430:5943" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5543:5745" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5791:5843" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5986:6575" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6047:6099" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6112:6208" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
-            <marker date="1502319339620" expanded="true" signature="6632:7554" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6712:6764" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6862:7276" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7293:7478" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7603:8870" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7871:8018" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
-            <marker date="1502319339620" expanded="true" signature="8374:8439" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="8453:8589" ph="/* handle speed change to give an fov kick ... */" />
-            <marker date="1502319339620" expanded="true" signature="8699:8860" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="8906:8996" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9070:9539" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9270:9322" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9373:9425" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -366,41 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502319339620" expanded="false" signature="6:148" ph="..." />
-            <marker date="1502319339620" expanded="true" signature="202:9547" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="357:9545" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2199:2707" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2782:3520" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2922:3024" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3100:3289" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3378:3440" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3562:3706" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3743:5237" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4577:4881" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4673:4867" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4898:5012" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5276:5376" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5430:5943" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5543:5745" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5791:5843" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5986:6575" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6047:6099" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6112:6208" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
-            <marker date="1502319339620" expanded="true" signature="6632:7554" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6712:6764" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6862:7276" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7293:7478" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7603:8870" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7871:8018" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
-            <marker date="1502319339620" expanded="true" signature="8374:8439" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="8453:8589" ph="/* handle speed change to give an fov kick ... */" />
-            <marker date="1502319339620" expanded="true" signature="8699:8860" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="8906:8996" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9070:9539" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9270:9322" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9373:9425" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -408,41 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502319339620" expanded="false" signature="6:148" ph="..." />
-            <marker date="1502319339620" expanded="true" signature="202:9547" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="357:9545" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2199:2707" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2782:3520" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2922:3024" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3100:3289" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3378:3440" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3562:3706" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3743:5237" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4577:4881" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4673:4867" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4898:5012" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5276:5376" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5430:5943" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5543:5745" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5791:5843" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5986:6575" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6047:6099" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6112:6208" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
-            <marker date="1502319339620" expanded="true" signature="6632:7554" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6712:6764" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6862:7276" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7293:7478" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7603:8870" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7871:8018" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
-            <marker date="1502319339620" expanded="true" signature="8374:8439" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="8453:8589" ph="/* handle speed change to give an fov kick ... */" />
-            <marker date="1502319339620" expanded="true" signature="8699:8860" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="8906:8996" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9070:9539" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9270:9322" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9373:9425" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -450,41 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502319339620" expanded="false" signature="6:148" ph="..." />
-            <marker date="1502319339620" expanded="true" signature="202:9547" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="357:9545" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2199:2707" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2782:3520" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2922:3024" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3100:3289" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3378:3440" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3562:3706" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3743:5237" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4577:4881" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4673:4867" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4898:5012" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5276:5376" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5430:5943" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5543:5745" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5791:5843" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5986:6575" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6047:6099" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6112:6208" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
-            <marker date="1502319339620" expanded="true" signature="6632:7554" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6712:6764" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6862:7276" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7293:7478" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7603:8870" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7871:8018" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
-            <marker date="1502319339620" expanded="true" signature="8374:8439" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="8453:8589" ph="/* handle speed change to give an fov kick ... */" />
-            <marker date="1502319339620" expanded="true" signature="8699:8860" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="8906:8996" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9070:9539" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9270:9322" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9373:9425" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,83 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502319339620" expanded="false" signature="6:148" ph="..." />
-            <marker date="1502319339620" expanded="true" signature="202:9547" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="357:9545" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2199:2707" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2782:3520" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2922:3024" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3100:3289" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3378:3440" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3562:3706" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3743:5237" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4577:4881" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4673:4867" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4898:5012" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5276:5376" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5430:5943" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5543:5745" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5791:5843" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5986:6575" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6047:6099" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6112:6208" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
-            <marker date="1502319339620" expanded="true" signature="6632:7554" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6712:6764" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6862:7276" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7293:7478" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7603:8870" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7871:8018" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
-            <marker date="1502319339620" expanded="true" signature="8374:8439" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="8453:8589" ph="/* handle speed change to give an fov kick ... */" />
-            <marker date="1502319339620" expanded="true" signature="8699:8860" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="8906:8996" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9070:9539" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9270:9322" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9373:9425" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502319339620" expanded="false" signature="6:148" ph="..." />
-            <marker date="1502319339620" expanded="true" signature="202:9547" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="357:9545" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2199:2707" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2782:3520" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2922:3024" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3100:3289" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3378:3440" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3562:3706" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3743:5237" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4577:4881" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4673:4867" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4898:5012" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5276:5376" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5430:5943" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5543:5745" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5791:5843" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5986:6575" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6047:6099" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6112:6208" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
-            <marker date="1502319339620" expanded="true" signature="6632:7554" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6712:6764" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6862:7276" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7293:7478" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7603:8870" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7871:8018" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
-            <marker date="1502319339620" expanded="true" signature="8374:8439" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="8453:8589" ph="/* handle speed change to give an fov kick ... */" />
-            <marker date="1502319339620" expanded="true" signature="8699:8860" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="8906:8996" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9070:9539" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9270:9322" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9373:9425" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,13 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Player/PlayerMovement.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/SimpleCloudSystem by RM/SceneComponents/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -860,40 +738,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DE713E92-6A1C-489D-A969-4BB7F33085F3/68/b23e0f64/Vector3.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9739">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding>
-            <marker date="1502319339620" expanded="false" signature="6:148" ph="..." />
-            <marker date="1502319339620" expanded="true" signature="202:9547" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="357:9545" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2199:2707" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2782:3520" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="2922:3024" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3100:3289" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3378:3440" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3562:3706" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="3743:5237" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4577:4881" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4673:4867" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="4898:5012" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5276:5376" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5430:5943" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5543:5745" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5791:5843" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="5986:6575" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6047:6099" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6112:6208" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
-            <marker date="1502319339620" expanded="true" signature="6632:7554" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6712:6764" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="6862:7276" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7293:7478" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7603:8870" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="7871:8018" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
-            <marker date="1502319339620" expanded="true" signature="8374:8439" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="8453:8589" ph="/* handle speed change to give an fov kick ... */" />
-            <marker date="1502319339620" expanded="true" signature="8699:8860" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="8906:8996" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9070:9539" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9270:9322" ph="{...}" />
-            <marker date="1502319339620" expanded="true" signature="9373:9425" ph="{...}" />
+            <marker date="1502266850236" expanded="true" signature="63:3079" ph="{...}" />
+            <marker date="1502266850236" expanded="true" signature="650:892" ph="{...}" />
+            <marker date="1502266850236" expanded="true" signature="918:1262" ph="{...}" />
+            <marker date="1502266850236" expanded="true" signature="1296:1708" ph="{...}" />
+            <marker date="1502266850236" expanded="true" signature="1729:2788" ph="{...}" />
+            <marker date="1502266850236" expanded="true" signature="2173:2782" ph="{...}" />
+            <marker date="1502266850236" expanded="true" signature="2827:3077" ph="{...}" />
           </folding>
         </state>
       </provider>
