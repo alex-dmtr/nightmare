@@ -7,6 +7,12 @@ TagManager:
   - EnergyDrink
   - HealthPack
   - PickupSpawnPoint
+  - Fire
+  - Cactus
+  - Fire
+  - PickupSpawnPoint
+  - EnergyDrink
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -20,8 +26,8 @@ TagManager:
   - Shootable
   - LightMask
   - Invisible
-  - 
-  - 
+  - Ground
+  - Obstacles
   - 
   - 
   - 
