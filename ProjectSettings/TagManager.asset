@@ -13,6 +13,8 @@ TagManager:
   - PickupSpawnPoint
   - EnergyDrink
   - Bullet
+  - EToOpen
+  - Chest
   layers:
   - Default
   - TransparentFX

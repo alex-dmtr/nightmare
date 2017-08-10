@@ -1,58 +1,52 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class PlayerCollision : MonoBehaviour {
-
-    public float timeBetweenAttacks = 0.5f;
-    public int cactusDamage = 5;
-
+public class PlayerCollision : MonoBehaviour
+{
     PlayerHealth playerHealth;
-    float timer;
+    public Animator chestAnimator;
+    public Text eToOpen;
+    public int reqScore = 100;
+    private bool isInRange = false;
 
-    bool cactusInRange;
 
     private void Awake()
     {
         playerHealth = GetComponent<PlayerHealth>();
-        timer = 0f;
     }
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if(collision.gameObject.CompareTag("Cactus"))
+        if (other.gameObject.CompareTag("Chest"))
         {
-            cactusInRange = true;
-            Debug.Log("Collision Enter");
+            eToOpen.rectTransform.localScale = Vector3.one;
+            isInRange = true;
         }
     }
 
-    private void OnTriggerExit(Collider collision)
+    private void OnTriggerExit(Collider other)
     {
-        if (collision.gameObject.CompareTag("Cactus"))
+        if (other.gameObject.CompareTag("Chest"))
         {
-            cactusInRange = false;
-            Debug.Log("Collision Exit");
+            eToOpen.rectTransform.localScale = Vector3.zero;
+            isInRange = false;
         }
     }
 
-    void Update()
-    {
-        timer += Time.deltaTime;
 
-        if (timer >= timeBetweenAttacks && cactusInRange && playerHealth.currentHealth > 0)
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.E) && ScoreManager.score >= reqScore && isInRange)
         {
-            GetAttackedByCactus();
-            Debug.Log("Took damage");
+            chestAnimator.SetTrigger("Activate");
+            ActivateWinGame();
         }
     }
 
-    private void GetAttackedByCactus()
+    private void ActivateWinGame()
     {
-        timer = 0f;
-        if (playerHealth.currentHealth > 0)
-        {
-            playerHealth.TakeDamage(cactusDamage);
-        }
+        throw new System.NotImplementedException();
     }
 }
