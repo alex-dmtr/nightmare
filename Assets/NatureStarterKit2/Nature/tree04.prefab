@@ -11,15 +11,13 @@ GameObject:
   - component: {fileID: 19354148}
   - component: {fileID: 3315964}
   - component: {fileID: 2351642}
-  - component: {fileID: 13635550}
-  - component: {fileID: 13647794}
-  - component: {fileID: 13681708}
-  m_Layer: 0
+  - component: {fileID: 65913341365554264}
+  m_Layer: 9
   m_Name: tree04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &459816
 Transform:
@@ -8593,45 +8591,6 @@ MonoBehaviour:
   optimizedSolidMaterial: {fileID: 2141854}
   optimizedCutoutMaterial: {fileID: 2113140}
   isInPreviewMode: 0
---- !u!136 &13635550
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 109402}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.21
-  m_Height: 3.95
-  m_Direction: 1
-  m_Center: {x: 0.9, y: 1.83, z: 1.01}
---- !u!136 &13647794
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 109402}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.17
-  m_Height: 3.95
-  m_Direction: 1
-  m_Center: {x: -0.2, y: 1.83, z: 0.35}
---- !u!136 &13681708
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 109402}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.16
-  m_Height: 3.95
-  m_Direction: 1
-  m_Center: {x: -1.54, y: 1.83, z: 0.58}
 --- !u!193 &19354148
 Tree:
   m_ObjectHideFlags: 1
@@ -8651,3 +8610,15 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 109402}
   m_IsPrefabParent: 1
+--- !u!65 &65913341365554264
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109402}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.1419477, y: 6.110298, z: 4.223756}
+  m_Center: {x: -0.43811297, y: 3.055149, z: 0.21523625}

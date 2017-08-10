@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 19343728}
   - component: {fileID: 3350282}
   - component: {fileID: 2323548}
-  - component: {fileID: 13699876}
-  m_Layer: 0
+  - component: {fileID: 65742399710561498}
+  m_Layer: 9
   m_Name: tree03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &451222
 Transform:
@@ -4612,19 +4612,6 @@ MonoBehaviour:
   optimizedSolidMaterial: {fileID: 2131188}
   optimizedCutoutMaterial: {fileID: 2147804}
   isInPreviewMode: 0
---- !u!136 &13699876
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 191138}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.6
-  m_Height: 8.61388
-  m_Direction: 1
-  m_Center: {x: -0.01, y: 3.76, z: -0.06}
 --- !u!193 &19343728
 Tree:
   m_ObjectHideFlags: 1
@@ -4644,3 +4631,15 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 191138}
   m_IsPrefabParent: 1
+--- !u!65 &65742399710561498
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 191138}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.407899, y: 8.61679, z: 5.6030664}
+  m_Center: {x: 0.08624303, y: 4.308395, z: 0.4570887}
