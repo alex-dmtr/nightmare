@@ -26,19 +26,19 @@ public class ScoreManager : MonoBehaviour
     private void Update ()
     {
         int lvl = levelContainer.GetLevel();
-        text.text = "Level: " + lvl + " Score: " + score;
+        text.text = "Score: " + score;
         if(score >= 100 * lvl)
         {
             levelContainer.IncrementLevel();
         }
         
-        if (score >= 200 && SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(0))
+        if (score >= 50 && SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(0))
         {
             PlayerPrefs.SetInt("Player Score", score);
             PlayerPrefs.Save();
             SceneManager.LoadSceneAsync(1);
         }
-        else if (score >= 300 && SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(1))
+        else if (score >= 100 && SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(1))
         {
             PlayerPrefs.SetInt("Player Score", score);
             PlayerPrefs.Save();
