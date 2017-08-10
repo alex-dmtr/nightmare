@@ -2,16 +2,568 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c273f0aa-c4a7-4051-9096-b4a2388817b7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.nightmare/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/.idea.nightmare/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Animations.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Animations/Main Camera.controller" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Animations/Main Camera.controller.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Animations/cameraanim.anim" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Animations/cameraanim.anim.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/AntialiasingEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/AntialiasingEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/BloomAndFlaresEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/BloomAndFlaresEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/BloomEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/BloomEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/CameraMotionBlurEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/CameraMotionBlurEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/ColorCorrectionLookupEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/ColorCorrectionLookupEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/CreaseShadingEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/CreaseShadingEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/EdgeDetectionEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/EdgeDetectionEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/NoiseAndGrainEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/NoiseAndGrainEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/SunShaftsEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/SunShaftsEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/TonemappingEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/TonemappingEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/bark01.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/bark01.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/bark02.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/bark02.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/branch01.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/branch01.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/branch02.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/branch02.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/bush01.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/bush01.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/bush02.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/bush02.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/sky.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/sky.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/skybox.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Materials/skybox.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush01.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush01.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush01_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush01_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush01_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush01_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush01_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush01_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush01_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush01_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush01_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush02.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush02.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush02_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush02_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush02_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush02_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush02_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush02_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush02_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush02_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush02_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush03.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush03.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush03_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush03_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush03_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush03_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush03_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush03_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush03_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush03_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush03_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush04.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush04.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush04_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush04_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush04_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush04_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush04_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush04_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush04_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush04_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush04_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush05.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush05.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush05_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush05_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush05_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush05_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush05_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush05_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush05_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush05_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush05_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush06.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush06.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush06_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush06_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush06_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush06_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush06_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush06_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush06_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush06_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/bush06_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree01.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree01.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree01_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree01_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree01_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree01_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree01_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree01_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree01_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree01_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree01_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree02.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree02.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree02_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree02_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree02_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree02_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree02_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree02_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree02_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree02_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree02_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree03.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree03.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree03_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree03_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree03_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree03_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree03_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree03_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree03_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree03_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree03_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree04.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree04.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree04_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree04_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree04_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree04_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree04_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree04_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree04_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree04_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Nature/tree04_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Shaders.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedAlbedo.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedAlbedo.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedNormals.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedNormals.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/Noise.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/Noise.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/FlashlightCookie.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/FlashlightCookie.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/FlashlightIrregularCookie.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/FlashlightIrregularCookie.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightSquareCookie.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/LightSquareCookie.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Flares.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Flares/50mmZoom.flare" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Flares/50mmZoom.flare.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Flares/FlareSmall.flare" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Flares/FlareSmall.flare.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Flares/Sun.flare" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Flares/Sun.flare.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Materials/Flare50mm.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Materials/Flare50mm.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Textures/Flare50mm.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Textures/Flare50mm.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Textures/FlareStar.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Textures/FlareStar.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Guidelines.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Guidelines.txt.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/GridProjector.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/GridProjector.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/LightProjector.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/LightProjector.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Prefabs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Prefabs/BlobLightProjector.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Prefabs/BlobLightProjector.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Prefabs/GridProjector.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Prefabs/GridProjector.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Shaders.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Shaders/ProjectorLight.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Shaders/ProjectorLight.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Shaders/ProjectorMultiply.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Shaders/ProjectorMultiply.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Falloff.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Falloff.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Grid.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Grid.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Light.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Light.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Shadow.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Textures/Shadow.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularDisplacement.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularDisplacement.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularSmooth.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularSmooth.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Models.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Scenes.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Scenes/TessellationSample.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Scenes/TessellationSample.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Shaders.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Shaders/BumpedSpecularDisplacement.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Shaders/BumpedSpecularDisplacement.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Shaders/BumpedSpecularSmooth.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Shaders/BumpedSpecularSmooth.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Textures/CliffHeight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Textures/CliffHeight.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Textures/CliffNormals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Textures/CliffNormals.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonBasicOutline.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonBasicOutline.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonLit.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonLit.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Shaders.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Shaders/ToonBasic.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Shaders/ToonBasic.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Shaders/ToonBasicOutline.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Shaders/ToonBasicOutline.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Shaders/ToonLit.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Shaders/ToonLit.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Shaders/ToonLitOutline.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Shaders/ToonLitOutline.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Textures/ToonLit.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Textures/ToonLit.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Textures/UtilToonGradient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Textures/UtilToonGradient.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/bark01.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/bark01.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/bark02.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/bark02.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/branch01.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/branch01.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/bush01.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/bush01.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/grass01.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/grass01.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/grass02.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/grass02.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/ground01.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/ground01.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/ground01.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/ground01.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/ground02.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/ground02.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/ground03.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/ground03.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/ground03.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/ground03.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/sky.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/sky.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/sky.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Textures/sky.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/info.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/info.txt.meta" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.nightmare/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.nightmare/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Level_02.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_02.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.nightmare/riderModule.iml" afterPath="$PROJECT_DIR$/.idea/.idea.nightmare/riderModule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Hellephant.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hellephant.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/ZomBear.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/ZomBear.prefab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Level_03.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_03.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTeo.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTeo.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameOverManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameOverManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollision.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollision.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,7 +590,7 @@
       <file leaf-file-name="ScoreManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="782">
               <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="31" selection-end-line="50" selection-end-column="38" />
               <folding>
                 <marker date="1502375045538" expanded="false" signature="6:101" ph="..." />
@@ -57,10 +609,10 @@
       <file leaf-file-name="PlayerCollision.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollision.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="102">
               <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
-                <marker date="1502375764847" expanded="true" signature="6:75" ph="..." />
+                <marker date="1502375764847" expanded="false" signature="6:75" ph="..." />
                 <marker date="1502375764847" expanded="true" signature="121:1296" ph="{...}" />
                 <marker date="1502375764847" expanded="true" signature="396:461" ph="{...}" />
                 <marker date="1502375764847" expanded="true" signature="510:682" ph="{...}" />
@@ -117,14 +669,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/PickupManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameOverManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/EnemyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp/Compiled-Hidden-GlobalFog.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooting.cs" root0="FORCE_HIGHLIGHTING" />
@@ -144,6 +697,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameOverManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollision.cs" />
+        <option value="$PROJECT_DIR$/Temp/Compiled-Hidden-GlobalFog.shader" />
       </list>
     </option>
   </component>
@@ -185,6 +739,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -201,7 +756,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,6 +876,7 @@
       <workItem from="1502373732910" duration="245000" />
       <workItem from="1502374016763" duration="23000" />
       <workItem from="1502374080445" duration="1687000" />
+      <workItem from="1502380182538" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="Reformat file">
       <created>1501878477734</created>
@@ -334,7 +889,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16892000" />
+    <option name="totallyTimeSpent" value="16939000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,13 +951,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerPickup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
@@ -698,7 +1246,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="782">
           <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="31" selection-end-line="50" selection-end-column="38" />
           <folding>
             <marker date="1502375045538" expanded="false" signature="6:101" ph="..." />
@@ -727,12 +1275,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/Compiled-Hidden-GlobalFog.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4012">
+          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <marker date="1502380184697" expanded="true" signature="0:419" ph="/* Compiled shader for PC, Mac &amp; Linux Standalone ... */" />
+            <marker date="1502380184697" expanded="true" signature="460:506" ph="{...}" />
+            <marker date="1502380184697" expanded="true" signature="523:707" ph="/* Stats for Vertex shader: ... */" />
+            <marker date="1502380184697" expanded="true" signature="757:994" ph="/* Compiled programs ... */" />
+            <marker date="1502380184697" expanded="true" signature="1298:1779" ph="/* Generated by Microsoft (R) HLSL Shader Compiler 10.1 ... */" />
+            <marker date="1502380184697" expanded="true" signature="2984:3802" ph="/* Generated by Microsoft (R) HLSL Shader Compiler 10.1 ... */" />
+            <marker date="1502380184697" expanded="true" signature="5678:6496" ph="/* Generated by Microsoft (R) D3D Shader Disassembler ... */" />
+            <marker date="1502380184697" expanded="true" signature="8426:9174" ph="/* Generated by Microsoft (R) D3D Shader Disassembler ... */" />
+            <marker date="1502380184697" expanded="true" signature="11104:11288" ph="/* Stats for Vertex shader: ... */" />
+            <marker date="1502380184697" expanded="true" signature="11338:11575" ph="/* Compiled programs ... */" />
+            <marker date="1502380184697" expanded="true" signature="11879:12360" ph="/* Generated by Microsoft (R) HLSL Shader Compiler 10.1 ... */" />
+            <marker date="1502380184697" expanded="true" signature="13515:14211" ph="/* Generated by Microsoft (R) HLSL Shader Compiler 10.1 ... */" />
+            <marker date="1502380184697" expanded="true" signature="15657:16475" ph="/* Generated by Microsoft (R) D3D Shader Disassembler ... */" />
+            <marker date="1502380184697" expanded="true" signature="18348:19096" ph="/* Generated by Microsoft (R) D3D Shader Disassembler ... */" />
+            <marker date="1502380184697" expanded="true" signature="20549:20733" ph="/* Stats for Vertex shader: ... */" />
+            <marker date="1502380184697" expanded="true" signature="20783:21020" ph="/* Compiled programs ... */" />
+            <marker date="1502380184697" expanded="true" signature="21324:21805" ph="/* Generated by Microsoft (R) HLSL Shader Compiler 10.1 ... */" />
+            <marker date="1502380184697" expanded="true" signature="22979:23730" ph="/* Generated by Microsoft (R) HLSL Shader Compiler 10.1 ... */" />
+            <marker date="1502380184697" expanded="true" signature="25464:26282" ph="/* Generated by Microsoft (R) D3D Shader Disassembler ... */" />
+            <marker date="1502380184697" expanded="true" signature="28178:28926" ph="/* Generated by Microsoft (R) D3D Shader Disassembler ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollision.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="102">
           <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
-            <marker date="1502375764847" expanded="true" signature="6:75" ph="..." />
+            <marker date="1502375764847" expanded="false" signature="6:75" ph="..." />
             <marker date="1502375764847" expanded="true" signature="121:1296" ph="{...}" />
             <marker date="1502375764847" expanded="true" signature="396:461" ph="{...}" />
             <marker date="1502375764847" expanded="true" signature="510:682" ph="{...}" />
