@@ -609,6 +609,7 @@
       <file leaf-file-name="PlayerCollision.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollision.cs">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="102">
               <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
@@ -637,6 +638,21 @@
                 <marker date="1502375000282" expanded="true" signature="306:671" ph="{...}" />
                 <marker date="1502375000282" expanded="true" signature="357:665" ph="{...}" />
                 <marker date="1502375000282" expanded="true" signature="561:655" ph="{...}" />
+=======
+            <state relative-caret-position="295">
+              <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+              <folding>
+                <marker date="1502362957823" expanded="true" signature="6:100" ph="..." />
+                <marker date="1502362957823" expanded="true" signature="146:1168" ph="{...}" />
+                <marker date="1502362957823" expanded="true" signature="333:398" ph="{...}" />
+                <marker date="1502362957823" expanded="true" signature="447:619" ph="{...}" />
+                <marker date="1502362957823" expanded="true" signature="503:613" ph="{...}" />
+                <marker date="1502362957823" expanded="true" signature="667:841" ph="{...}" />
+                <marker date="1502362957823" expanded="true" signature="723:835" ph="{...}" />
+                <marker date="1502362957823" expanded="true" signature="869:1066" ph="{...}" />
+                <marker date="1502362957823" expanded="true" signature="959:1060" ph="{...}" />
+                <marker date="1502362957823" expanded="true" signature="1102:1166" ph="{...}" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
@@ -871,12 +887,16 @@
       <workItem from="1502319089941" duration="170000" />
       <workItem from="1502319431436" duration="15000" />
       <workItem from="1502343811743" duration="208000" />
+<<<<<<< Updated upstream
       <workItem from="1502354220943" duration="4071000" />
       <workItem from="1502373562764" duration="16000" />
       <workItem from="1502373732910" duration="245000" />
       <workItem from="1502374016763" duration="23000" />
       <workItem from="1502374080445" duration="1687000" />
       <workItem from="1502380182538" duration="47000" />
+=======
+      <workItem from="1502354220943" duration="4600000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="Reformat file">
       <created>1501878477734</created>
@@ -889,7 +909,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="16939000" />
+=======
+    <option name="totallyTimeSpent" value="15450000" />
+>>>>>>> Stashed changes
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -901,7 +925,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+>>>>>>> Stashed changes
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1306,6 +1335,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollision.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="102">
           <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
@@ -1318,6 +1348,21 @@
             <marker date="1502375764847" expanded="true" signature="786:898" ph="{...}" />
             <marker date="1502375764847" expanded="true" signature="932:1293" ph="{...}" />
             <marker date="1502375764847" expanded="true" signature="1022:1287" ph="{...}" />
+=======
+        <state relative-caret-position="295">
+          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding>
+            <marker date="1502362957823" expanded="true" signature="6:100" ph="..." />
+            <marker date="1502362957823" expanded="true" signature="146:1168" ph="{...}" />
+            <marker date="1502362957823" expanded="true" signature="333:398" ph="{...}" />
+            <marker date="1502362957823" expanded="true" signature="447:619" ph="{...}" />
+            <marker date="1502362957823" expanded="true" signature="503:613" ph="{...}" />
+            <marker date="1502362957823" expanded="true" signature="667:841" ph="{...}" />
+            <marker date="1502362957823" expanded="true" signature="723:835" ph="{...}" />
+            <marker date="1502362957823" expanded="true" signature="869:1066" ph="{...}" />
+            <marker date="1502362957823" expanded="true" signature="959:1060" ph="{...}" />
+            <marker date="1502362957823" expanded="true" signature="1102:1166" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
